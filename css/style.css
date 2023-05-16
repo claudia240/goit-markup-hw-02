@@ -12,50 +12,55 @@ body {
   font-family: "roboto", sans-serif;
   background: var(--background-color2);
   color: var(--text-color2)
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1,1;
+  
 }
 
 header {
 background-color:white
-color:var(var(--text-color2))
+color:white
 font-weight: 500;
 font-size: 14px;
-line-height: 1,1;
+line-height: 1.1;
 }
 
-span{
+.blue-color{
   color: var(--brand-color);
 }
 
 .logo {
 
-color: white;
+color: black;
 font-family: 'Raleway'
 font-weight: 700;
 font-size: 26px;
-line-height: 1,2
+line-height: 1.2
 
 }
 
 .nav-link:hover {
 color: var(--brand-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
 }
 
 .address-link{
 font-weight: 400;
 font-size: 14px;
-line-height: 1,7;
+line-height: 1.7;
 color: white;
 }
 
-.contact-link {
+.contact-link-color {
  color: var(--text-color2);
 }
-.contact-link:hover{
+.contact-link:hover {
 color: var(--brand-color)
 }
+
 a {
 text-decoration: none;
 color:black;
@@ -76,7 +81,7 @@ color: var(--text-color1);
 cursor: pointer;
 font-weight: 500;
 font-size: 16px;
-line-height:1,6;
+line-height:1.6;
 }
 
 .order {
@@ -84,31 +89,33 @@ background: var(--brand-color);
 color: var(--background-color3);
 font-weight: 700;
 font-size: 16px;
-line-height: 1,9;
+line-height: 1.9;
 }
 
-.section-one{
+.section-one {
 background-color: var(--background-color1);
-color:white
 font-weight: 900;
 font-size: 44px;
-line-height: 1,4;
+line-height: 1.36
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: white
+
+
 }
 
-h1{
-  color: white;
-}
 
 .section-two h2{
 font-weight: 700;
 font-size: 14px;
-line-height: 1,1;
+line-height: 1.1;
 color: var(--text-color1)}
 
 .section-two p{
 font-weight: 400;
 font-size: 14px;
-line-height: 1,7;
+line-height: 1.7;
 color: var(--text-color2)
 }
 
@@ -116,27 +123,27 @@ color: var(--text-color2)
 .section-three h2{
 font-weight: 700;
 font-size: 36px;
-line-height: 1,2;
+line-height: 1.2;
 color: var(--text-color1);
 }
 
 .section-four h2{
 font-weight: 700;
 font-size: 36px;
-line-height: 1,2;
+line-height: 1.2;
 color: var(--text-color1);
 }
 .section-four h3{
 font-weight: 500;
 font-size: 16px;
-line-height: 1,2;
+line-height: 1.2;
 color: var(--text-color1);
 }
 
 .section-four p{
 font-weight: 400;
 font-size: 16px;
-line-height: 1,2;
+line-height: 1.2;
 color: var(--text-color2);
 }
  
@@ -150,6 +157,19 @@ color: var(--text-color1);
 .section-portfolio p{
 font-weight: 400;
 font-size: 16px;
-line-height: 1,9;
+line-height: 1.9;
 color: var(--text-color2);
+}
+.element-style{
+  list-style: none;
+  
+}
+
+.contact-link-style{
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+list-style: none;
 }
