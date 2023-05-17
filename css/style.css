@@ -1,26 +1,32 @@
 :root {
   --brand-color: #2196f3;
+  --main-text-color: black;
   --text-color1:#212121;;
   --text-color2: #757575;
+  --main-background-color: white;
   --background-color1: #2f303a;
   --background-color2:#E5E5E5;
   --background-color3: #F5F4FA;
+  --main-font: Roboto, sans-serif;
 
 }
 
 body {
   
 background-color: white
-font-family: "roboto, sans-serif";
+font-family: roboto;
 color: var(--text-color1)
- 
-  }
+font-size: 14px;
+letter-spacing: 0.03em;
+}
+  
 
 header {
 
 font-weight: 500;
 font-size: 14px;
 line-height: 1.1;
+letter-spacing: 0.02em;
 }
 
 .blue-color{
@@ -29,20 +35,30 @@ line-height: 1.1;
 
 .logo {
 
-color: white;
+color: var(--main-background-color)
 font-family: 'Raleway'
 font-weight: 700;
 font-size: 26px;
-line-height: 1.2
+line-height: 1.2;
+letter-spacing: 0.03em;
 
 }
 
 .logo-header {
 color: black
 font-family: 'Raleway'
-font-weight: 700;
 font-size: 26px;
 line-height: 1.2
+letter-spacing: 0.02em;
+
+}
+.nav-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+
+color: #212121;
 
 }
 
@@ -50,14 +66,20 @@ line-height: 1.2
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
+letter-spacing: 0.03em;
 color: white;
 }
 .address-link:hover{
   color: var(--brand-color);
 }
 
-.contact-link-color {
+.contact-link {
  color: var(--text-color2);
+ font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+
 }
 
 .contact-link:hover {
@@ -71,7 +93,8 @@ color: var(--brand-color);
 
 a {
 text-decoration: none;
-color:black;
+color: var(--main-text-color)
+
 }
 
 footer {
@@ -80,6 +103,7 @@ footer {
   font-weight:400;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 
@@ -90,6 +114,7 @@ cursor: pointer;
 font-weight: 500;
 font-size: 16px;
 line-height:1.6;
+letter-spacing: 0.06em;
 }
 
 .order {
@@ -98,18 +123,21 @@ color: var(--background-color3);
 font-weight: 700;
 font-size: 16px;
 line-height: 1.9;
+letter-spacing: 0.06em;
+font-family: inherit;
+}
+.section-one-background {
+  background-color: var(--background-color1);
 }
 
 .section-one {
-background-color: var(--background-color1);
 font-weight: 900;
 font-size: 44px;
-line-height: 1.36
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: white
-
+color: #fff;
 
 }
 
@@ -118,12 +146,14 @@ color: white
 font-weight: 700;
 font-size: 14px;
 line-height: 1.1;
+letter-spacing: 0.03em;
 color: var(--text-color1)}
 
 .section-two p{
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
+letter-spacing: 0.03em;
 color: var(--text-color2)
 }
 
@@ -132,19 +162,26 @@ color: var(--text-color2)
 font-weight: 700;
 font-size: 36px;
 line-height: 1.2;
+letter-spacing: 0.03em;
 color: var(--text-color1);
 }
 
+.section-four-background {
+background-color: var(--background-color3);
+
+}
 .section-four h2{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.2;
+letter-spacing: 0.03em;
 color: var(--text-color1);
 }
 .section-four h3{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.2;
+letter-spacing: 0.03em;
 color: var(--text-color1);
 }
 
@@ -152,6 +189,7 @@ color: var(--text-color1);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.2;
+letter-spacing: 0.03em;
 color: var(--text-color2);
 }
  
@@ -159,6 +197,7 @@ color: var(--text-color2);
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
+letter-spacing: 0.06em;
 color: var(--text-color1);
 }
 
@@ -166,8 +205,11 @@ color: var(--text-color1);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.9;
+letter-spacing: 0.03em;
 color: var(--text-color2);
 }
+
+
 .element-style{
   list-style: none;
   
@@ -179,5 +221,5 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 list-style: none;
-color: #757575;
+color: var(--text-color2)
 }
