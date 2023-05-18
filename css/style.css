@@ -13,11 +13,12 @@
 
 body {
   
-background-color: white
+background-color: #fff
 font-family: roboto;
 color: var(--text-color1)
 font-size: 14px;
 letter-spacing: 0.03em;
+font-family: Roboto;
 }
   
 
@@ -45,8 +46,8 @@ letter-spacing: 0.03em;
 }
 
 .logo-header {
-color: black
-font-family: 'Raleway'
+color: #000;
+font-family: 'Raleway';
 font-size: 26px;
 line-height: 1.2
 letter-spacing: 0.02em;
@@ -74,8 +75,8 @@ color: white;
 }
 
 .contact-link {
- color: var(--text-color2);
- font-weight: 500;
+color: var(--text-color2);
+font-weight: 500;
 font-size: 14px;
 line-height: 1.1;
 letter-spacing: 0.02em;
@@ -99,7 +100,7 @@ color: var(--main-text-color)
 
 footer {
   background-color: var(--background-color1);
-  color:var(--text-color2)
+  color:#fff;
   font-weight:400;
   font-size: 14px;
   line-height: 1.7;
@@ -111,10 +112,23 @@ button {
 background-color: var(--background-color3);
 color: var(--text-color1);
 cursor: pointer;
+font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height:1.6;
 letter-spacing: 0.06em;
+}
+
+button:hover {
+background-color: var(--brand-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
 }
 
 .order {
@@ -126,11 +140,10 @@ line-height: 1.9;
 letter-spacing: 0.06em;
 font-family: inherit;
 }
-.section-one-background {
-  background-color: var(--background-color1);
-}
+
 
 .section-one {
+background-color: var(--background-color1);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -158,7 +171,7 @@ color: var(--text-color2)
 }
 
 
-.section-three h2{
+.section-three {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.2;
@@ -166,11 +179,9 @@ letter-spacing: 0.03em;
 color: var(--text-color1);
 }
 
-.section-four-background {
-background-color: var(--background-color3);
 
-}
-.section-four h2{
+.section-four {
+background-color: var(--background-color3);
 font-weight: 700;
 font-size: 36px;
 line-height: 1.2;
@@ -212,6 +223,7 @@ color: var(--text-color2);
 
 .element-style{
   list-style: none;
+  font-style: normal;
   
 }
 
