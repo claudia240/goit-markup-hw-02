@@ -13,9 +13,9 @@
 
 body {
   
-background-color: #fff
+background-color: var(--main-background-color);
 font-family: roboto;
-color: var(--text-color1)
+color: var(--text-color1);
 font-size: 14px;
 letter-spacing: 0.03em;
 font-family: Roboto;
@@ -36,8 +36,8 @@ letter-spacing: 0.02em;
 
 .logo {
 
-color: var(--main-background-color)
-font-family: 'Raleway'
+color: var(--main-background-color);
+font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
@@ -58,9 +58,12 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.1;
 letter-spacing: 0.02em;
-
 color: #212121;
 
+}
+
+.current {
+  color: var(--brand-color);
 }
 
 .address-link{
@@ -108,27 +111,21 @@ footer {
 }
 
 
-button {
+.portfolio-button {
 background-color: var(--background-color3);
 color: var(--text-color1);
 cursor: pointer;
 font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
-line-height:1.6;
-letter-spacing: 0.06em;
+line-height: 26px;
+letter-spacing: 0.03em;
 }
 
 button:hover {
 background-color: var(--brand-color);
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-letter-spacing: 0.03em;
 color: #FFFFFF;
+cursor: pointer;
 }
 
 .order {
